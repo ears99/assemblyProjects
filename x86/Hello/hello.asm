@@ -1,6 +1,6 @@
 section .data
   msg db "Hello, World", 0x0A, 0x0D, 0 ;string to print
-  length equ $ - msg ;msg length
+  len equ $ - msg ;msg length
 
 section .text
 global _start
